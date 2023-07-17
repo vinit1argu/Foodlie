@@ -32,7 +32,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
-    background-color: #fff;
+    background-color: rgb(230, 187, 48);
     transition: transform 0.3s;
   }
   
