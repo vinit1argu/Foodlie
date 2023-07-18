@@ -5,6 +5,7 @@ import { SignupComponent } from './signup/signup.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { RestaurantComponent } from './component/restaurant/restaurant.component';
 import { OrderComponent } from './component/order/order.component';
+import { ProfileComponent } from './component/profile/profile.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'restaurants', component: RestaurantComponent},
-  { path: 'orders' , component: OrderComponent}
+  { path: 'orders' , component: OrderComponent},
+  { path: 'profile' , component: ProfileComponent}
 ];
 
 @NgModule({
