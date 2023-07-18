@@ -1,0 +1,23 @@
+<app-header></app-header>
+
+<div class="order-container">
+    <h2>Review Your Order</h2>
+    <div class="order-details">
+      <!-- Display the selected items from the cart -->
+      <ul class="order-items">
+        <li *ngFor="let item of cartItems">
+          <span class="item-name">{{ item.name }}</span>
+          <span class="item-price">$ {{ item.price }}</span>
+        </li>
+      </ul>
+      <div class="order-total">
+        <span>Total:</span>
+        <span class="total-price">$ {{ calculateTotal() }}</span>
+      </div>
+    </div>
+    <div class="order-actions">
+      <button class="btn btn-primary" (click)="placeOrder()">Place Order</button>
+      <button class="btn btn-secondary" (click)="goBack()">Go Back</button>
+    </div>
+  </div>
+  

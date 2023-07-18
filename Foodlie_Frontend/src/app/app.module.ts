@@ -8,6 +8,7 @@ import { SignupComponent } from './signup/signup.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HeaderComponent } from './header/header.component';
 import { RestaurantComponent } from './component/restaurant/restaurant.component';
+import { OrderComponent } from './component/order/order.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { RestaurantComponent } from './component/restaurant/restaurant.component
     SignupComponent,
     HomepageComponent,
     HeaderComponent,
-    RestaurantComponent
+    RestaurantComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
