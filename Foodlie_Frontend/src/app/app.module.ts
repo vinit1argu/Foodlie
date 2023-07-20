@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { RestaurantComponent } from './component/restaurant/restaurant.component';
 import { OrderComponent } from './component/order/order.component';
 import { ProfileComponent } from './component/profile/profile.component';
+import { SearchComponent } from './component/search/search.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ProfileComponent } from './component/profile/profile.component';
     HeaderComponent,
     RestaurantComponent,
     OrderComponent,
-    ProfileComponent
+    ProfileComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
